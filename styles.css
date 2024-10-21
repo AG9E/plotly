@@ -1,12 +1,14 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: "Spectral SC", serif;
+    font-weight: 200;
+    font-style: normal;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
 }
 header {
-    background: linear-gradient(135deg, #d1d1d1, #8c8c8c);
-    padding: 40px 20px;
+    font-size: 2rem;
+    padding: 10px 20px;
     text-align: center;
     position: relative;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -23,31 +25,17 @@ header::before {
     transform: translateX(-50%);
     border-radius: 5px;
 }
-h2 {
-    font-size: 3rem;
-    margin: 0;
-    color: #333;
-    font-weight: bold;
-    background: linear-gradient(135deg, #333, #666);
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    padding-bottom: 10px;
-}
 .container {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
 .chart-container {
-    margin-top: 115px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    margin-bottom: 20px;
+    margin-top: 20px;
     transition: transform 0.3s ease;
 }
 .chart-container:hover {
@@ -62,4 +50,7 @@ h2 {
     color: #666;
     font-size: 1.5rem;
     border-radius: 8px;
+}
+img, iframe {
+    border: none;
 }
